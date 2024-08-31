@@ -1,0 +1,12 @@
+# use this to run mysql locally
+version: '3'
+services:
+  local-mysql:
+    image: mysql:latest
+    ports:
+      - '3309:3306'
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: true
+      MYSQL_DATABASE: drizzle
+    tty: true

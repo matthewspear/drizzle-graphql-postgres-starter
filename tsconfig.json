@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "incremental": true,
+    "target": "es2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "lib": ["ESNext"],
+    "strictNullChecks": true,
+    "rootDir": "./src",
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "drizzle-graphql-mysql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Matt Spear",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "drizzle-graphql": "^0.8.5",
+    "drizzle-orm": "^0.33.0",
+    "graphql": "^16.9.0",
+    "graphql-yoga": "^5.7.0",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "drizzle-kit": "^0.24.2",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
