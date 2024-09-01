@@ -1,5 +1,5 @@
 {
-  "name": "drizzle-graphql-mysql",
+  "name": "drizzle-graphql-postgres",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -17,10 +17,11 @@
     "drizzle-orm": "^0.33.0",
     "graphql": "^16.9.0",
     "graphql-yoga": "^5.7.0",
-    "mysql2": "^3.11.0"
+    "pg": "^8.12.0"
   },
   "devDependencies": {
     "@types/node": "^22.5.1",
+    "@types/pg": "^8.11.8",
     "drizzle-kit": "^0.24.2",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",

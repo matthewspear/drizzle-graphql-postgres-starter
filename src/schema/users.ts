@@ -1,5 +1,5 @@
 import { relations } from 'drizzle-orm';
-import { serial, text } from 'drizzle-orm/mysql-core';
+import { serial, text } from 'drizzle-orm/pg-core';
 import { posts } from './posts';
 import { createdAt, createTable, updatedAt } from './schema';
 
